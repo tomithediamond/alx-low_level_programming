@@ -24,6 +24,7 @@ int main(void)
 		putchar(b);
 		{
 		if (s != 8 && b != 9)
+		continue;
 		putchar(',');
 		putchar(' ');
 		}
