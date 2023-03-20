@@ -7,6 +7,7 @@
  * Return: Always 0.
  */
 
+
 int main(void)
 
 {
@@ -15,13 +16,12 @@ int main(void)
 	for (s = '0'; s <= '9'; s++)
 	{
 		putchar(s);
-
 	if (s != '9')
 		{
 			putchar(',');
 			putchar(' ');
 		}
-		}
+	}
 	putchar('\n');
 	return (0);
 }
