@@ -18,12 +18,15 @@ int main(void)
 	{
 	for (b = '1'; b <= '9'; b++)
 	{
-		if (b > s && s != 8 && b != 9)
+		if (b > s)
 		{
 		putchar(s);
 		putchar(b);
+		{
+		if (s != 8 && b != 9)
 		putchar(',');
 		putchar(' ');
+		}
 		}
 	}
 	}
