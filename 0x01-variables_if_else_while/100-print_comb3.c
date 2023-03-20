@@ -23,7 +23,7 @@ int main(void)
 		putchar(s);
 		putchar(b);
 		{
-		for (s != 8 && b != 9)
+		if (s != 8 && b != 9)
 		putchar(',');
 		putchar(' ');
 		}
