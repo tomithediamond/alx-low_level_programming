@@ -12,6 +12,7 @@ int main(void)
 	int sd;
 
 	for (sd = 0; sd < 10; sd++)
-		printf("%d \n", sd);
+		printf("%d", sd);
+	printf("\n");
 	return (0);
 }
