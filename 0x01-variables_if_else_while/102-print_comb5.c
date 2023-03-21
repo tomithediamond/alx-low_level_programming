@@ -12,15 +12,15 @@
 int main(void)
 
 {
-        int u, v;
+	int u, v;
 	
 	for (u = 0; u <= 98; u++)
 	{
-
 	for (v = 1; v <= 99; v++)
 	{
 	putchar((u / 10) + '0');
 	putchar((u % 10) + '0');
+	putchar(' ');
 	putchar((v / 10) + '0');
 	putchar((v % 10) + '0');
 	if (u < v)
