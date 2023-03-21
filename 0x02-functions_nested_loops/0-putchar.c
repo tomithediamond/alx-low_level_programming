@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
 
 
 /**
@@ -11,10 +10,13 @@
 int main(void)
 
 {
-	char a;
-
-	for (a = "_putchar")
-		write('a');
-	write('\n');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 	return (0);
 }
