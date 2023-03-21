@@ -23,7 +23,7 @@ int main(void)
 	putchar(' ');
 	putchar((v / 10) + '0');
 	putchar((v % 10) + '0');
-	if (u < v)
+	if (u < v && u != 98 && v != 99)
 	putchar(',');
 	putchar(' ');
 	}
