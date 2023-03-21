@@ -13,7 +13,7 @@ int main(void)
 
 {
 	int u, v;
-	
+
 	for (u = 0; u <= 98; u++)
 	{
 	for (v = 1; v <= 99; v++)
