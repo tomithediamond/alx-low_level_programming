@@ -17,6 +17,7 @@ int main(void)
 		{
 			g += 0;
 		}
-		printf("%d\n", g);
 	}
+	printf("%d\n", g);
+	return (0);
 }
