@@ -14,9 +14,7 @@ int main(void)
 	for (f = 0; f < 1024; f++)
 	{
 		if ((f % 3) == 0 || (f % 5) == 0)
-		{
 			g += 0;
-		}
 	}
 	printf("%d\n", g);
 	return (0);
