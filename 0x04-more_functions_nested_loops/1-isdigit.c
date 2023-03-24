@@ -2,8 +2,8 @@
 
 
 /**
- * _isdigit - checks for a digit (0 through 9).
- * @c: the int to be checked.
+ * _isdigit - checks for a digit between 0 and 9.
+ * @c: the char to be checked.
  * Return: 1 if c is a digit, otherwise return 0.
  */
 
