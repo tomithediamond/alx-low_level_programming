@@ -13,13 +13,13 @@ void puts_half(char *str)
 	int t, u;
 
 	t = 0;
-	whil (str[t] != '\0')
+	while (str[t] != '\0')
 	{
 		t++;
 	}
 	if (t % 2 == 1)
 	{
-		u = ((t-1) / 2);
+		u = (t-1) / 2;
 		u += 1;
 	}
 	else
