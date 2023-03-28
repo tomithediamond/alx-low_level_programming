@@ -10,7 +10,7 @@ void print_rev(char *s)
 {
 	int lons, b;
 
-	lons = 
+	lons = 0;
 	while (*s != '\0')
 	{
 		lons++;
