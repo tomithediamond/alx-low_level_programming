@@ -8,9 +8,19 @@
 
 void print_rev(char *s)
 {
+	int lons, b;
+
+	lons = 
 	while (*s != '\0')
 	{
-		_putchar(*s--);
+		lons++;
+		s++;
+	}
+	s--;
+	for (b = lons; b > 0; b++)
+	{
+		_putchar(*s);
+		s--;
 	}
 		_putchar('\n');
 }
