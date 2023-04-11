@@ -18,7 +18,7 @@ int _atoi(char *s)
 			sign *= -1;
 		a++;
 	}
-	while (!s[a] <= 9 && (s[a] >= 0 && s[a] != '\0'))
+	while (s[a] <= 9 && (s[a] >= 0 && s[a] != '\0'))
 	{
 		conv = (conv * 10) + (s[a] - '0');
 		a++;
