@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -12,15 +11,15 @@
 
 int check_num(char *str)
 {
-	unsigned int amount = 0;
+	unsigned int count = 0;
 
-	while (amount < strlen(str))
+	while (count < strlen(str))
 	{
-		if (!isdigit(str[amount]))
+		if (!isdigit(str[count]))
 		{
 			return (0);
 		}
-		amount++;
+		count++;
 	}
 	return (1);
 }
@@ -34,25 +33,28 @@ int check_num(char *str)
 
 int main(int argc, char *argv[])
 {
-	int addi, amount, cha;
+	int count;
+	int str_to_int;
+	int sum = 0;
 
-	amount = 1;
+	count = 1;
 
-	while (amount < argc)
+	while (count < argc)
 	{
-		if (check_num(argv[amount]))
+		if (check_num(argv[count]))
 		{
-			cha = atoi(argv[amount]);
-			addi += cha;
+			str_to_int = atoi(argv[count]);
+			sum += str_to_int;
 		}
 		else
 		{
 			printf("Error\n");
 			return (1);
 		}
-		amount++;
-	}
 
-	printf("%d\n", addi);
+		count++;
+	}
+	printf("%d\n", sum);
+
 	return (0);
 }
